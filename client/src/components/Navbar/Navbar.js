@@ -3,7 +3,7 @@ import "./style.css"
 
 const Navbar = props => {
     return (
-        <nav className="navbar navbar-expand-lg sticky-top">
+        <nav className="navbar bg-danger navbar-expand-lg sticky-top">
             Clicky Game
 
             <ul className="ml-auto">

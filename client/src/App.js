@@ -6,6 +6,7 @@ import Row from './components/Row/Row';
 import portraits from "./portraits.json";
 import Col from "./components/Col/Col"
 import Alert from './components/Alert/Alert'
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
 
@@ -103,6 +104,7 @@ class App extends Component {
             }
           </Row>
         </Container>
+        <Footer/>
 
       </div>
     );
