@@ -3,7 +3,7 @@ import "./style.css"
 
 const Portrait = props => {
     return (
-        <div className="card">
+        <div className="card" id={props.id} {...props}>
             <div className="img-container">
                 <img alt="hi" src={props.image}/>
             </div>
