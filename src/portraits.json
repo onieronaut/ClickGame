@@ -2,12 +2,12 @@
     {
       "id": 1,
       "name": "orange",
-      "image": "/public/img/orange.png"
+      "image": "./public/img/orange.png"
     },
     {
       "id": 2,
       "name": "apple",
-      "image": "/img/apple.png"
+      "image": "./img/apple.png"
     },
     {
       "id": 3,
