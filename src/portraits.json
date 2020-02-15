@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "orange",
-      "image": "./public/img/orange.png"
+      "image": "./img/orange.png"
     },
     {
       "id": 2,
@@ -12,52 +12,52 @@
     {
       "id": 3,
       "name": "banana",
-      "image": "/img/banana.png"
+      "image": "./img/banana.png"
     },
     {
       "id": 4,
       "name": "blackberry",
-      "image": "/img/blackberry.png"
+      "image": "./img/blackberry.png"
     },
     {
       "id": 5,
       "name": "guava",
-      "image": "/img/guava.png"
+      "image": "./img/guava.png"
     },
     {
       "id": 6,
       "name": "kiwi",
-      "image": "/img/kiwi.png"
+      "image": "./img/kiwi.png"
     },
     {
       "id": 7,
       "name": "lime",
-      "image": "/img/lime.png"
+      "image": "./img/lime.png"
     },
     {
       "id": 8,
       "name": "mango",
-      "image": "/img/mango.png"
+      "image": "./img/mango.png"
     },
     {
       "id": 9,
       "name": "pear",
-      "image": "/img/pear.png"
+      "image": "./img/pear.png"
     },
     {
       "id": 10,
       "name": "watermelon",
-      "image": "/img/watermelon.png"
+      "image": "./img/watermelon.png"
     },
     {
       "id": 11,
       "name": "pineapple",
-      "image": "/img/pineapple.png"
+      "image": "./img/pineapple.png"
     },
     {
       "id": 12,
       "name": "strawberry",
-      "image": "/img/strawberry.png"
+      "image": "./img/strawberry.png"
     }
   ]
   

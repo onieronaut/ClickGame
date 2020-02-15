@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ClickGame/static/css/main.11a6652b.chunk.css",
-    "main.js": "/ClickGame/static/js/main.36e79632.chunk.js",
-    "main.js.map": "/ClickGame/static/js/main.36e79632.chunk.js.map",
+    "main.js": "/ClickGame/static/js/main.cd4ce681.chunk.js",
+    "main.js.map": "/ClickGame/static/js/main.cd4ce681.chunk.js.map",
     "runtime-main.js": "/ClickGame/static/js/runtime-main.9f82b2b1.js",
     "runtime-main.js.map": "/ClickGame/static/js/runtime-main.9f82b2b1.js.map",
     "static/js/2.2b30e680.chunk.js": "/ClickGame/static/js/2.2b30e680.chunk.js",
     "static/js/2.2b30e680.chunk.js.map": "/ClickGame/static/js/2.2b30e680.chunk.js.map",
     "index.html": "/ClickGame/index.html",
-    "precache-manifest.ec303256dcccc75bfd1a7bc1cd52cb26.js": "/ClickGame/precache-manifest.ec303256dcccc75bfd1a7bc1cd52cb26.js",
+    "precache-manifest.06353b88e2fd4645b9e312e1c5a2b056.js": "/ClickGame/precache-manifest.06353b88e2fd4645b9e312e1c5a2b056.js",
     "service-worker.js": "/ClickGame/service-worker.js",
     "static/css/main.11a6652b.chunk.css.map": "/ClickGame/static/css/main.11a6652b.chunk.css.map",
     "static/js/2.2b30e680.chunk.js.LICENSE.txt": "/ClickGame/static/js/2.2b30e680.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9f82b2b1.js",
     "static/js/2.2b30e680.chunk.js",
     "static/css/main.11a6652b.chunk.css",
-    "static/js/main.36e79632.chunk.js"
+    "static/js/main.cd4ce681.chunk.js"
   ]
 }
