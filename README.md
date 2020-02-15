@@ -18,13 +18,13 @@ Download or clone the repository [here]("https://github.com/onieronaut/ClickGame
 
 After downloading the repository and installing Node.js, use your command line interface to navigate to the directory the repository is located in and install the required packages with:
 
-``` npm install ```
+    npm install
 
 ## Usage
 
 Once installed enter this command in your CLI to start a local react server on your machine:
 
-``` npm start ```
+    npm start
 
 When completed your browser should automatically open to http://localhost:3000
 
