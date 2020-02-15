@@ -1,13 +1,13 @@
 img {
-    width: 50%;
+    width: 75%;
     height: 100%;
   }
 
 .card {
   margin: 1em;
+
 }
 .card:hover {
-  width: 100%;
-  height: 100%;
+  cursor: pointer;
   border: 1px solid red;
 }

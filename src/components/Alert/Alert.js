@@ -5,13 +5,13 @@ const Alert = props => {
     if (props.start) {
         return (
             <div className={`alert alert-primary text-center`}>
-                Try to click each character only once!
+                <h5>Try to click each fruit only once!</h5>
             </div>
         )
     } else {
         return (
             <div className={`alert alert-${props.type} text-center`}>
-                {props.children}
+                <h5>{props.children}</h5>
             </div>
         );
     }

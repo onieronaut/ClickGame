@@ -19,11 +19,11 @@ class App extends Component {
     startGame: true
   };
 
-  
+
   checkGuess = guess => {
 
     let wrong = false;
-    
+
     this.state.guessed.forEach(guesses => {
       if (guesses === guess)
         wrong = true;
@@ -89,24 +89,31 @@ class App extends Component {
       <div>
 
         <Navbar score={this.state.correct} topScore={this.state.topScore} />
-        <Alert start={this.state.startGame} type={ this.state.guessAlert ? "success" : "danger"}>{this.state.guessAlert ? "You guessed right":"You guessed wrong"}</Alert>
-        <Container>
-          <Row>
-            {
-              this.state.portraits.map(portrait => (
-                <Col size="sm-3" key={portrait.id}>
-                  <Portrait
-                    id={portrait.id}
-                    image={portrait.image}
-                    onClick={() => this.checkGuess(portrait.id)} />
-                </Col>
-              ))
-            }
-          </Row>
-        </Container>
-        <Footer/>
+        {this.state.correct === 12 &&
+        <Alert type="success"> You win! </Alert>   }     
+        <Alert
+          start={this.state.startGame}
+        type={this.state.guessAlert ? "success" : "danger"}>
+          {this.state.guessAlert ? "You guessed right" : "You guessed wrong"}
+        </Alert>
+      <Container>
+        <Row>
+          {
+            this.state.portraits.map(portrait => (
+              <Col size="sm-3" key={portrait.id}>
+                <Portrait
+                  id={portrait.id}
+                  name={portrait.name}
+                  image={portrait.image}
+                  onClick={() => this.checkGuess(portrait.id)} />
+              </Col>
+            ))
+          }
+        </Row>
+      </Container>
+      <Footer />
 
-      </div>
+      </div >
     );
   }
 
